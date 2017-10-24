@@ -1,0 +1,29 @@
+{
+  "name": "fp-2-fetch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frontend-3/fp-2-fetch.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frontend-3/fp-2-fetch/issues"
+  },
+  "homepage": "https://github.com/frontend-3/fp-2-fetch#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "whatwg-fetch": "^2.0.3"
+  }
+}
