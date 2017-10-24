@@ -3,10 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "watch": {
+    "build": "src/*.*"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel src --out-dir dist --copy-files",
-    "start": "node server.js"
+    "start": "node server.js",
+    "watch": "npm-watch"
   },
   "repository": {
     "type": "git",
@@ -20,10 +24,10 @@
   "homepage": "https://github.com/frontend-3/fp-2-fetch#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.6.1"
+    "babel-preset-env": "^1.6.1",
+    "npm-watch": "^0.3.0"
   },
   "dependencies": {
-    "express": "^4.16.2",
-    "whatwg-fetch": "^2.0.3"
+    "express": "^4.16.2"
   }
 }
